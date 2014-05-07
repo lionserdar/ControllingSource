@@ -125,13 +125,8 @@
 			children = (
 				BEBF3D991919C66100ADDE0D /* SAAppDelegate.h */,
 				BEBF3D9A1919C66100ADDE0D /* SAAppDelegate.m */,
-				BEBF3D9C1919C66100ADDE0D /* Main.storyboard */,
-				BEBF3DA21919C66100ADDE0D /* SAMasterViewController.h */,
-				BEBF3DA31919C66100ADDE0D /* SAMasterViewController.m */,
-				BEBF3DA51919C66100ADDE0D /* SADetailViewController.h */,
-				BEBF3DA61919C66100ADDE0D /* SADetailViewController.m */,
-				BEBF3DA81919C66100ADDE0D /* Images.xcassets */,
-				BEBF3D9F1919C66100ADDE0D /* ControllingSource.xcdatamodeld */,
+				BEBF3DC71919C67300ADDE0D /* Resources */,
+				BEBF3DC61919C66900ADDE0D /* ViewControllers */,
 				BEBF3D911919C66100ADDE0D /* Supporting Files */,
 			);
 			path = ControllingSource;
@@ -164,6 +159,27 @@
 				BEBF3DB91919C66100ADDE0D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEBF3DC61919C66900ADDE0D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BEBF3DA21919C66100ADDE0D /* SAMasterViewController.h */,
+				BEBF3DA31919C66100ADDE0D /* SAMasterViewController.m */,
+				BEBF3DA51919C66100ADDE0D /* SADetailViewController.h */,
+				BEBF3DA61919C66100ADDE0D /* SADetailViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BEBF3DC71919C67300ADDE0D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BEBF3D9C1919C66100ADDE0D /* Main.storyboard */,
+				BEBF3DA81919C66100ADDE0D /* Images.xcassets */,
+				BEBF3D9F1919C66100ADDE0D /* ControllingSource.xcdatamodeld */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
